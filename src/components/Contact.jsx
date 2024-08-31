@@ -6,7 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+//template_v4vj6pj
+//serviceid: service_fpp0dmw
+//publickey: rUgvgSHurB2AcKFgG
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -30,19 +32,21 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+//template_v4vj6pj
+//serviceid: service_fpp0dmw
+//publickey: rUgvgSHurB2AcKFgG
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_fpp0dmw',
+        'template_v4vj6pj',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Mukhtar Handulle",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "mukhtarhandulle2027@u.northwestern.edu",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        rUgvgSHurB2AcKFgG
       )
       .then(
         () => {
