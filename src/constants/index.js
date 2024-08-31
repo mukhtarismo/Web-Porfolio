@@ -42,15 +42,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI/ML Engineer",
       icon: backend,
     },
     {
@@ -116,50 +116,51 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "AI Software Engineering Fellow",
+      company_name: "HeadStarter AI",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2024 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, and Stripe API with 98% accuracy with 100+ active users.",
+        "Contributed to the Oyster open-source project by enhancing user experience features, impacting over 11,000 computer science students within the ColorStack community.",
+        "Developed projects from design to deployment collaborating with 4+ engineering fellows using MVC design patterns.",
+        "Coached by Amazon, Capital One, and Bloomberg engineers on Agile, CI/CD, Git and Microservice patterns."
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Machine Learning Researcher",
+      company_name: "Northwestern Tiilt Lab",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Enhanced the attention-target model using Python, PyTorch, and OpenCV, improving tracking accuracy by 15% for classroom engagement analysis.",
+        "Collaborated with Ph.D. researchers and academic professionals to refine machine learning models, integrating TensorFlow and SciKit-Learn to enhance body pose estimation accuracy.",
+        "Optimized real-time analytics tools utilizing ReSpeaker Core v2.0 and PyTorch, reducing processing latency and providing educators with faster insights into student behavior."
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Cybersecurity Intern",
+      company_name: "OmniSOC",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2024 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analyzed security alerts and triaged detections using CrowdStrike, achieving 90% accuracy in identifying true positives.",
+        "Documented 190 security alerts and gathered threat intelligence using VirusTotal and AlienVault.",
+        "Provided actionable recommendations that resulted in a 30% improvement in incident response effectiveness.",
+        "Collaborated with the security operations team to enhance the organization's cybersecurity posture."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Peer Mentor ",
+      company_name: "Northwestern University CS Department",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "August 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
