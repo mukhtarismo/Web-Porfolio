@@ -216,7 +216,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: current,
+      image: carrent,
       source_code_link: "https://github.com/",
     },
     {
